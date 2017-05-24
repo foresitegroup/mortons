@@ -249,7 +249,7 @@
 		), $atts ) );
 		$return = '
 		<div id="maps" data-lat="' . esc_js($latitude) . '" data-lon="' . esc_js($longitude) . '" data-marker="' . esc_attr($marker_name) . '">
-            <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+            <script type="text/javascript" src="//maps.google.com/maps/api/js?sensor=false"></script>
             <div class="map-content">
                 <div class="wpgmappity_container inner-map" id="wpgmappitymap"></div>
             </div>
